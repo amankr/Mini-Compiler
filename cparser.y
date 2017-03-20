@@ -1253,7 +1253,7 @@ char *s;
 {
         fflush(stdout);
 		printf("Parse Error\n");
-		return;
+		return 0;
 }
 int main()
 {
