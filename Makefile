@@ -5,4 +5,5 @@ all:
 	gcc  -o start y.tab.o lex.yy.o definition.o symbolTable.o CtoMIPS.o
 
 clean:
-	rm y.tab.o lex.yy.o definition.o symbolTable.o CtoMIPS.o
+	rm *.o
+	rm y.tab.c lex.yy.c y.output y.tab.h

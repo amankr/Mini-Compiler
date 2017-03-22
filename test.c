@@ -1,4 +1,4 @@
-/*int fun(int x){
+int fun(int x){
 	if(x==0){
 		return 1;	
 	}
@@ -12,7 +12,7 @@ void main(){
 		print(int,z);
 		
 }
-*/
+
 
 /*void main(){
 	int a,*b,*c, d;
@@ -108,6 +108,7 @@ int main(){
 	//ss.b = 4;
 }
 */
+/*
 struct buz{
 	int a,b;
 } X;
@@ -126,3 +127,4 @@ int main(){
 	print(int,c);
 	//return 0;
 }
+*/
